@@ -39,6 +39,7 @@ h3 {
 
 .panel {
     border: 1px solid rgb(193, 195, 197);
+    min-width: 285.97px;
 }
 
 .middle {
@@ -72,10 +73,28 @@ li {
     border-right: 1px solid rgb(193, 195, 197);
 }
 
+.kathyimg {
+    min-width: 285.97px;
+}
 
-@media screen and (min-width: 900px) { /* at least 900px */
-    article {padding: 1rem 3rem; }
+
+@media screen and (max-width: 880px) {
+    .cardtainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .panel {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 1rem;
+    }
   }
 
-viewport width equal to or narrower than 12450px:
-@media (max-width: 12450px) { ... }
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: .5rem;
+    }
+  }
