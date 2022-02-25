@@ -93,6 +93,9 @@ li {
     .panel {
         margin-bottom: 20px;
     }
+    .katpanel {
+        margin-right: 0;
+    }
   }
 
 
