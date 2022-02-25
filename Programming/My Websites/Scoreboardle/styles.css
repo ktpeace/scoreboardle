@@ -73,12 +73,15 @@ li {
     border-right: 1px solid rgb(193, 195, 197);
 }
 
-.kathyimg {
+.expandimg {
     min-width: 285.97px;
 }
 
+.loserfirstcol {
+    min-width: 142.985px;
+}
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1215px) {
     .cardtainer {
         flex-direction: column;
         align-items: center;
@@ -86,6 +89,10 @@ li {
     .panel {
         margin-bottom: 20px;
     }
+  }
+
+
+@media screen and (max-width: 880px) {
     h1 {
         font-size: 3rem;
         letter-spacing: 1rem;
