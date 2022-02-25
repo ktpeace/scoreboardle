@@ -47,6 +47,10 @@ h3 {
     margin-right: 20px;
 }
 
+.katpanel {
+    margin-right: 20px;
+}
+
 ul {
     list-style-type: none;
     text-align: left;
@@ -74,7 +78,7 @@ li {
 }
 
 .expandimg {
-    min-width: 285.97px;
+    min-width: 285.96px;
 }
 
 .loserfirstcol {
