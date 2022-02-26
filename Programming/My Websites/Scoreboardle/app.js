@@ -1,19 +1,21 @@
 // https://github.com/dulldesk/words-api/
 
 // Wordle
+let cardtainer = document.querySelector(".cardtainer");
+
 let kathy1 = document.querySelector(".kathy1").innerHTML;
 let kathy2 = document.querySelector(".kathy2").innerHTML;
-let kathywscore = (kathy1 * 2) + parseInt(kathy2);
+let kathywscore = (kathy1 * 3) + parseInt(kathy2);
 let kathyw = document.querySelector(".kathyw");
 
 let teresa1 = document.querySelector(".teresa1").innerHTML;
 let teresa2 = document.querySelector(".teresa2").innerHTML;
-let teresawscore = (teresa1 * 2) + parseInt(teresa2);
+let teresawscore = (teresa1 * 3) + parseInt(teresa2);
 let teresaw = document.querySelector(".teresaw");
 
 let kat1 = document.querySelector(".kat1").innerHTML;
 let kat2 = document.querySelector(".kat2").innerHTML;
-let katwscore = (kat1 * 2) + parseInt(kat2);
+let katwscore = (kat1 * 3) + parseInt(kat2);
 let katw = document.querySelector(".katw");
 
 if (kathywscore > teresawscore && kathywscore > katwscore) {
@@ -37,6 +39,14 @@ else if (kathywscore === teresawscore && kathywscore === katwscore) {
     katw.innerHTML = "Wordle 🥇";
     teresaw.innerHTML = "Wordle 🥇";
 }
+
+// if (katw.innerHTML === "Wordle 🥇") {
+//     cardtainer.innerHTML = ''
+// } else if (teresaw.innerHTML === "Wordle 🥇") {
+
+// } else if (kathyw.innerHTML = "Wordle 🥇") {
+
+// }
 
 // Quordle
 let kathyq1 = document.querySelector(".kathyq1").innerHTML;
