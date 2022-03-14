@@ -112,3 +112,9 @@ li {
         letter-spacing: .2rem;
     }
   }
+
+  footer {
+      margin-top: 15px;
+      color: grey;
+      font-style: italic;
+  }
