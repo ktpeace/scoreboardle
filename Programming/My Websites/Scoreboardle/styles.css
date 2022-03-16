@@ -118,3 +118,12 @@ li {
       color: grey;
       font-style: italic;
   }
+
+  video {
+      margin-bottom: 1px;
+      max-width: 285.96px;
+  }
+
+.kathypanel {
+    align-self: flex-end;
+}
